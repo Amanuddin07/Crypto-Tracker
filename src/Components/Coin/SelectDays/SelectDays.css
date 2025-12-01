@@ -1,0 +1,32 @@
+.select{
+    color: var(--white) !important;
+    border: 1px solid var(--white) !important;
+    padding: 0 !important;
+    height: 2.5rem;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        border: 1px solid var(--blue) !important;
+        transition: all .3s ease-in-out;
+    }
+}
+
+.MuiOutlinedInput-notchedOutline{
+    border: none !important;
+}
+
+.MuiSvgIcon-root{
+    color: var(--white) !important;
+}
+
+.css-1tkmop-MuiFormLabel-root-MuiInputLabel-root{
+    color: var(--white) !important;
+}
+
+
+.select-days{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+}

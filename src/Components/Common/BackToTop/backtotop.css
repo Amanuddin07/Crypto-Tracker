@@ -1,0 +1,28 @@
+.back-to-top-btn{
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .back-to-top-btn{
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 1.2rem;
+        right: .5rem;
+
+    }
+
+    .upArrow{
+        font-size: 1.2rem !important;
+    }
+}

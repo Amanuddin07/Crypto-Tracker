@@ -1,0 +1,129 @@
+.list-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+
+    &:hover{
+        background-color: var(--darkgrey);
+        transition: all .3s;
+    }
+}
+
+
+.list-row td{
+    text-align: left;
+    width: 18%;
+}
+
+.td-image{
+    width: 3rem !important;
+    margin-right: 1.5rem;
+}
+
+
+.mobile_td_high,.mobile_td_low,.mobile_td_mktcap{
+    display: none;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .td-icon{
+        display: none;
+    }
+
+    .td_coin_symbol{
+        font-size: 1rem;
+    }
+    .td_coin_name{
+        font-size: .8rem;
+    }
+
+    .td_price_chip{
+        font-size: .7rem !important;
+        padding: .35rem 1rem;
+        min-width: 80px;
+    }
+
+    .td_coin_price{
+        font-size: 1rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .td-image .coin-logo{
+        width: 3rem;
+        height: 3rem;
+    }
+    .td_coin_price{
+        font-size: .8rem;
+    }
+
+    .today-high, .today-low, .market-cap {
+        font-size: .7rem;
+    }
+    .desktop_td_high,.desktop_td_low,.desktop_td_mktcap{
+        display: none;
+    }
+
+    .mobile_td_high,.mobile_td_low,.mobile_td_mktcap{
+        display: block;
+    }
+
+    .list-row{
+        padding: .75rem;
+        margin: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .td-image .coin-logo{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .list-row {
+        margin: .85rem;
+    }
+
+    .td-image{
+        width: 1.5rem !important;
+        margin-right: 1rem;
+    }
+
+    .td_coin_symbol{
+        font-size: .5rem;
+    }
+    .td_coin_name{
+        font-size: .4rem;
+    }
+    
+    .td_coin_price{
+        font-size: .5rem;
+    }
+
+    .mobile_td_high,.mobile_td_low{
+        display: none;
+    }
+
+    .today-high, .today-low, .market-cap {
+        font-size: .5rem;
+    }
+
+    .td_price_chip{
+        font-size: .3rem !important;
+        padding: .25rem .65rem;
+        min-width: 40px;
+    }
+}
+
+
+
