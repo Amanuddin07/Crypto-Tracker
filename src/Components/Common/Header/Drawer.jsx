@@ -24,12 +24,6 @@ export default function AnchorTemporaryDrawer() {
           <Link to="/wishlist">
             <p className="link">Wishlist</p>
           </Link>
-          <Link to="/dashboard">
-            <Btn
-              text={"Dashboard"}
-              // onClick={() => console.log("Btn clicked")}
-            />
-          </Link>
         </div>
       </Drawer>
     </div>
