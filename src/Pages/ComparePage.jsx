@@ -89,16 +89,17 @@ export default function ComparePage() {
       ) : (
         <div>
           <Header />
-          <div className="coin-days-flex">
-            <SelectCoin
-              crypto1={crypto1}
-              crypto2={crypto2}
-              // setCrypto1={setCrypto1}
-              // setCrypto2={setCrypto2}
-              handleCoinChange={handleCoinChange}
-            />
-            <SelectDays days={days} handleDays={handleDays} noPTag={true} />
+          <div className="container container-fluid">
+            <div className="coin-days-flex">
+              <SelectCoin
+                crypto1={crypto1}
+                crypto2={crypto2}
+                handleCoinChange={handleCoinChange}
+              />
+              <SelectDays days={days} handleDays={handleDays} noPTag={true} />
+            </div>
           </div>
+          
           <div className="grey-wrapper">
             <List coin={crypto1Data} />
           </div>

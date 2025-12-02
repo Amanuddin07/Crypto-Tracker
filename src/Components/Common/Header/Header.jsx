@@ -26,7 +26,7 @@ function Header() {
         </Link>
       </div>
       <div className="mobile_drawer">
-        <AnchorTemporaryDrawer />
+        <AnchorTemporaryDrawer className="icon" />
       </div>
     </div>
   );

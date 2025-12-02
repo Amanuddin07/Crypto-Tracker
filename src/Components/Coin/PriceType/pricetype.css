@@ -4,3 +4,10 @@
     justify-content: center;
     margin: 1rem 0;
 }
+
+@media only screen and (max-width: 600px){
+    .css-ut7rzy-MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped{
+        font-size: .6rem;
+    }
+}
+

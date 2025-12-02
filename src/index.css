@@ -77,11 +77,27 @@ img {
 
 
 .coin-days-flex{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 1.5rem;
-    gap: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1.5rem;
+  gap: 2rem;
 }
+
+
+
+
+@media only screen and (max-width: 800px){
+  .coin-days-flex .coins-flex p{
+    display: none;
+  }
+
+  .css-18jp67o-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-18jp67o-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-18jp67o-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 5px;
+    padding-right: 26px !important;
+    font-size: 10px;
+  }
+}
+
 
 

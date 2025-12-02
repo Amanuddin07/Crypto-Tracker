@@ -55,6 +55,10 @@ p{
         display: block;
     }
 
+    .mobile_drawer .icon{
+        font-size: 2rem;
+    }
+
     .drawer_div{
         width: 40vw;
         height: 100vh;
